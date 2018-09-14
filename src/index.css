@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.Main main {
+  padding: 2rem;
+}
+
+.Main_header {
+  background-color: #222;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.Main_title {
+  font-size: 1.5em;
+}
+
+.Main_intro {
+  font-size: large;
+}
