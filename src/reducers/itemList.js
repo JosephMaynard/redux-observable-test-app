@@ -2,12 +2,11 @@ import {
   ADD_ITEM,
 } from '../constants/action-types';
 
-import { randomString } from '../utils/helpers';
-
-const items = Array.from(new Array(5)).map(() => randomString());
+// import { randomString } from '../utils/helpers';
+// const items = Array.from(new Array(5)).map(() => randomString());
 
 const initialState = {
-  items,
+  items: [],
 };
 
 const itemList = (state = initialState, action) => {

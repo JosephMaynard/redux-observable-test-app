@@ -7,6 +7,9 @@ body {
 .Main main {
   padding: 2rem;
 }
+.Main li {
+  margin-bottom: 1rem;
+}
 
 .Main_header {
   background-color: #222;
